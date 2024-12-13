@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCare Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <h1>GreenCare</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallary.html">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Effortless Lawn Mowing and Snow Removal</h1>
+            <p>Reliable and Affordable Outdoor Services</p>
+            <button onclick="document.getElementById('quote').scrollIntoView()">Get a Quote</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p><strong>Objective:</strong> Keeping your property in pristine condition all year.</p>
+        <p><strong>Mission:</strong> Deliver professional services that exceed expectations.</p>
+        <p><strong>Vision:</strong> To be the most trusted name in outdoor property maintenance.</p>
+        <img src="images/Team work.jpeg" alt="Team at work" class="section-image">
+    </section>
+
+    <!-- Special Promotions -->
+    <section id="promotions" class="section">
+        <h2>Special Offers</h2>
+        <div class="promo-grid">
+            <div class="promo-card">
+                <img src="images/summer.jpeg" alt="Summer Promotion">
+                <p><strong>Summer Lawn Care:</strong> 20% off lawn services!</p>
+            </div>
+            <div class="promo-card">
+                <img src="images/winter.jpeg" alt="Winter Promotion">
+                <p><strong>Snow Removal:</strong> Save $50 on seasonal packages!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Small Lawn</h3>
+                <p>Up to 1000 sq ft</p>
+                <span>$50</span>
+            </div>
+            <div class="pricing-card">
+                <h3>Medium Lawn</h3>
+                <p>1001 - 5000 sq ft</p>
+                <span>$150</span>
+            </div>
+            <div class="pricing-card">
+                <h3>Large Lawn</h3>
+                <p>5001+ sq ft</p>
+                <span>$300</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Request Form -->
+    <section id="quote" class="section">
+        <h2>Request a Quote</h2>
+        <form id="quoteForm" class="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" required>
+            <label for="size">Land Size (sq ft):</label>
+            <input type="number" id="size" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="quoteResult"></div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial">
+            <p>"The best lawn service I've ever used. Highly recommended!" - Jane D.</p>
+        </div>
+        <div class="testimonial">
+            <p>"Prompt and efficient snow removal. Great value!" - John S.</p>
+        </div>
+        <div class="testimonial">
+            <p>"Reliable, friendly, and affordable. Love their services!" - Sarah L.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>6 Anaheim court, NE, Calgary</p>
+        <p>Email: contact@greencare.com</p>
+        <p>Phone: 403 889 7584</p>
+        <div id="map">
+            <img src="images/Screenshot 2024-12-11 165647.png" alt="Map">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow us:</p>
+        <div class="social-icons">
+            <a href="#" class="icon">Facebook</a>
+            <a href="#" class="icon">Instagram</a>
+            <a href="#" class="icon">Twitter</a>
+        </div>
+        <p>&copy; 2024 GreenCare Services | Designed by [Rajbir Soni]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
